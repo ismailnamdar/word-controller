@@ -1,0 +1,32 @@
+{
+  "name": "word-controller",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Ismail Namdar",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "build:example": "rollup examples/example.js --file examples/output/bundle.js --format umd"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@rollup/plugin-babel": "^5.3.0",
+    "rollup": "^2.59.0"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "text",
+    "word",
+    "control",
+    "minimum",
+    "line"
+  ]
+}

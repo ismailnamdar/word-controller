@@ -1,0 +1,19 @@
+.root {
+	display: flex;
+	flex-direction: row;
+}
+
+.container {
+	width: 250px;
+	background-color: lightgrey;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.normal {
+	background-color: lightblue;
+}
+
+.result {
+	background-color: lightgreen;
+}

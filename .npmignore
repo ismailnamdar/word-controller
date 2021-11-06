@@ -1,0 +1,6 @@
+examples/
+node_modules/
+.idea/
+.babelrc
+rollup.config.js
+.gitignore
