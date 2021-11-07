@@ -16,6 +16,9 @@ function WordController(container, text, config) {
 		console.log('rendered');
 		// Remove children if there is any
 		container.innerHTML = '';
+		// Add required styles
+		container.style.display = 'flex';
+		container.style.flexWrap = 'wrap';
 
 		const lineConfig = [
 			// {
