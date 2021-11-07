@@ -2,7 +2,8 @@
   "name": "word-controller",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "author": "Ismail Namdar",
   "license": "MIT",
   "scripts": {
@@ -20,7 +21,7 @@
     "example": "examples"
   },
   "files": [
-    "index.js"
+    "output"
   ],
   "keywords": [
     "text",
