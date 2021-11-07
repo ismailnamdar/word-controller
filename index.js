@@ -13,7 +13,6 @@ function WordController(container, text, config) {
 	const { minWordCountInLine = 2, resizeObserver = true, deliminator = ' ', whiteSpaceWidth = '4px' } = this._config;
 
 	function renderText() {
-		console.log('rendered');
 		// Remove children if there is any
 		container.innerHTML = '';
 		// Add required styles
